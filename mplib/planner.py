@@ -66,7 +66,7 @@ class Planner:
             self.user_joint_names,
             self.user_link_names,
             verbose=False,
-            convex=True,
+            convex=False, ###
         )
         self.pinocchio_model = self.robot.get_pinocchio_model()
 
